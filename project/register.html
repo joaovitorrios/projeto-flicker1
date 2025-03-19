@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flicker - Criar Conta</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div class="gradient-sphere"></div>
+        <div class="gradient-sphere"></div>
+        <div class="gradient-sphere"></div>
+    </div>
+    <div class="container">
+        <div class="login-card">
+            <img src="https://i.ibb.co/VkYMZvM/imagem-2025-03-04-204306477-removebg.png" alt="Flicker Logo" class="logo">
+            <form class="login-form" id="registerForm">
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        placeholder="Nome completo" 
+                        required
+                        id="name"
+                        name="name"
+                    />
+                </div>
+                <div class="input-group">
+                    <input 
+                        type="text" 
+                        placeholder="Nome de usuário" 
+                        required
+                        id="username"
+                        name="username"
+                    />
+                </div>
+                <div class="input-group">
+                    <input 
+                        type="email" 
+                        placeholder="E-mail" 
+                        required
+                        id="email"
+                        name="email"
+                    />
+                </div>
+                <div class="input-group">
+                    <input 
+                        type="password" 
+                        placeholder="Senha" 
+                        required
+                        id="password"
+                        name="password"
+                        minlength="6"
+                    />
+                </div>
+                <div class="input-group">
+                    <input 
+                        type="password" 
+                        placeholder="Confirmar senha" 
+                        required
+                        id="confirmPassword"
+                        name="confirmPassword"
+                        minlength="6"
+                    />
+                </div>
+                <button type="submit">Criar Conta</button>
+            </form>
+            <div class="divider">
+                <span>ou</span>
+            </div>
+            <a href="/login.html" class="forgot-password">Já tem uma conta? Faça login</a>
+        </div>
+        <div class="signup-card">
+            <p>Já tem uma conta? <a href="/login.html">Faça login</a></p>
+        </div>
+    </div>
+    <script type="module" src="js/register.js"></script>
+</body>
+</html> 
